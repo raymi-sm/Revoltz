@@ -1,6 +1,6 @@
 $(window).load(function() {
     $('#slider').nivoSlider({
-        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+        effect: 'fold', // Specify sets like: 'fold,fade,sliceDown'
         slices: 15, // For slice animations
         boxCols: 8, // For box animations
         boxRows: 4, // For box animations

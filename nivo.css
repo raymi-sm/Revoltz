@@ -79,11 +79,33 @@
 	right:0px;
 }
 /* Control nav styles (e.g. 1,2,3...) */
+
+.nivo-controlNav{
+
+	position: absolute;
+	bottom:-40px;
+	right: 0;
+}
+
 .nivo-controlNav a {
 	position:relative;
 	z-index:9;
 	cursor:pointer;
+	background: url("images/slider-btn-inactive.png")no-repeat;
+	display: block;
+	text-indent: -9999px;
+	padding: 5px 15px;
+	float: left;
 }
+
+.nivo-controlNav a:last-child{
+
+	padding-right: 0;
+	padding-left: 20px;
+
+}
+
 .nivo-controlNav a.active {
 	font-weight:bold;
+	background: url("images/slider-btn-active.png")no-repeat;
 }
